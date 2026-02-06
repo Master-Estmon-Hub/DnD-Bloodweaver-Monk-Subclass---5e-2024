@@ -1,0 +1,36 @@
+{
+  "id": "monk-subclass-warrior-of-blood",
+  "title": "Monk Subclass - Warrior of Blood",
+  "version": "1.0.0",
+  "compatibility": {
+    "minimum": "13",
+    "verified": "13"
+  },
+  "description": "<p>New monk subclass, a warrior that uses its own blood to create weapons and empower its abilities.</p>",
+  "authors": [
+    {
+      "name": "Master Estmon",
+      "email": "theeastmon@gmail.com",
+      "url": "https://www.youtube.com/@MasterEstmon",
+      "discord": "Estmon#6661",
+      "flags": {}
+    }
+  ],
+  "flags": {
+    "canUpload": true
+  },
+  "packs": [
+    {
+      "name": "monk-warrior-of-blood-features",
+      "label": "Monk Subclass Warrior of Blood Features",
+      "path": "packs/monk-warrior-of-blood-features",
+      "type": "Item",
+      "ownership": {
+        "PLAYER": "OBSERVER",
+        "ASSISTANT": "OWNER"
+      },
+      "system": "dnd5e",
+      "flags": {}
+    }
+  ]
+}
